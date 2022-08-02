@@ -48,7 +48,7 @@ const Home = () => {
             <div class="left-header">
               <div class="h-shape"></div>
               <div class="image">
-                <img src="/images/hero.png" alt="" />
+                <img src="/images/hero.jpg" alt="" />
               </div>
             </div>
             <div class="right-header">
