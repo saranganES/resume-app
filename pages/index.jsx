@@ -38,7 +38,7 @@ const Home = () => {
           referrerpolicy="no-referrer"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800"
           rel="stylesheet"
         ></link>
       </Head>
@@ -53,10 +53,10 @@ const Home = () => {
             </div>
             <div className="right-header">
               <h1 className="name">
-                Hi, I'm <span>Sarangan E. </span> Web Developer.
+                Hi, I&apos;m <span>Sarangan E. </span> Web Developer.
               </h1>
               <p>
-                I'm a Web Developer, I love to create beautiful and functional
+                I&apos;m a Web Developer, I love to create beautiful and functional
                 websites.
               </p>
               <div className="btn-con">
@@ -237,7 +237,7 @@ const Home = () => {
               </h2>
             </div>
             <p className="port-text">
-              Here is some of my work that I've done in various programming
+              Here is some of my work that I&apos;ve done in various programming
               languages.
             </p>
             <div className="portfolios">
@@ -578,7 +578,6 @@ const Home = () => {
         <div className="theme-btn" onClick={() => handleTheme()}>
           <i className="fas fa-adjust"></i>
         </div>
-        <script src="app.js"></script>
       </div>
     </div>
   );
