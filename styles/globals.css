@@ -1,0 +1,401 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.border-radius-6 {
+  border-radius: 6px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .mob-px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .ipad-px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    overflow-x: hidden;
+  }
+}
+
+.c-pointer {
+  cursor: pointer !important;
+}
+
+header {
+  padding-top: 15px;
+}
+
+header .search-form .location-dd .search-icon-wrapper {
+  background: #fcfcfc;
+  border: 1px solid #E4E4E3;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 10px 0 10px;
+  border-right: none;
+}
+
+header .search-form .location-dd .form-control {
+  border-left: 0;
+  padding-left: 0;
+}
+
+header .search-form .form-control {
+  background: #fcfcfc;
+  border-color: #e4e4e3;
+  color: #181818;
+  font-weight: 300;
+}
+
+header .search-form .search-input .search-icon-wrapper {
+  background: #fcfcfc;
+  border-color: #e4e4e3;
+}
+
+header .search-form .search-input .search-icon-wrapper img {
+  width: 16px;
+}
+
+header .tab-nav {
+  margin-top: 5px;
+  padding-left: 12px;
+}
+
+header .tab-nav .nav-item {
+  margin-right: 80px;
+}
+
+header .tab-nav .nav-item .nav-link {
+  padding-bottom: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  border-bottom: 1px solid transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header .tab-nav .nav-item .nav-link img {
+  padding: 0;
+  margin-right: 10px;
+  -webkit-filter: brightness(0);
+          filter: brightness(0);
+  opacity: 0.2;
+}
+
+header .tab-nav .nav-item .nav-link.active, header .tab-nav .nav-item .nav-link:hover {
+  color: #00cccc;
+  border-color: #00cccc;
+}
+
+header .tab-nav .nav-item .nav-link.active img, header .tab-nav .nav-item .nav-link:hover img {
+  opacity: 1;
+  -webkit-filter: brightness(1) invert(0);
+          filter: brightness(1) invert(0);
+}
+
+@media only screen and (max-width: 991px) {
+  header .tab-nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .tab-nav .nav-item {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header .tab-nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+  header .search-form .form-control {
+    font-size: 12px;
+  }
+  header .login-button button.btn {
+    font-size: 11px;
+  }
+}
+
+.section-path .breadcrumb {
+  opacity: 0.5;
+  margin-left: 0;
+}
+
+.section-path .breadcrumb .breadcrumb-item a {
+  color: #181818 !important;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.section-banner .brand-banner .carousel-control-prev,
+.section-banner .brand-banner .carousel-control-next,
+.section-banner .banner-custom .carousel-control-prev,
+.section-banner .banner-custom .carousel-control-next {
+  width: 6%;
+  -webkit-filter: brightness(0);
+          filter: brightness(0);
+  opacity: 0.5;
+}
+
+.section-banner .brand-banner .carousel-inner,
+.section-banner .banner-custom .carousel-inner {
+  height: 400px;
+}
+
+.section-banner .brand-banner .carousel-inner .carousel-item,
+.section-banner .banner-custom .carousel-inner .carousel-item {
+  height: 400px;
+}
+
+.section-banner .brand-banner .carousel-inner .carousel-item .banner-img,
+.section-banner .banner-custom .carousel-inner .carousel-item .banner-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.section-banner .brand-banner .carousel-inner .carousel-item .banner-img img,
+.section-banner .banner-custom .carousel-inner .carousel-item .banner-img img {
+  position: static;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+@media only screen and (max-width: 991px) {
+  .section-banner .brand-banner .carousel-inner,
+  .section-banner .banner-custom .carousel-inner {
+    height: 320px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-banner .brand-banner .carousel-inner,
+  .section-banner .banner-custom .carousel-inner {
+    height: 180px;
+  }
+}
+
+.section-banner .brand-banner .carousel-indicators button,
+.section-banner .banner-custom .carousel-indicators button {
+  background: #000;
+  width: 16px;
+  height: 16px;
+  border: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .section-banner {
+    margin-left: -12px;
+    width: calc(100% + 24px);
+  }
+}
+
+.signin-wrap {
+  background: #c0eaea;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.signin-wrap .login-sec {
+  width: 380px;
+  margin: 0 auto;
+  color: #3d3d3d;
+}
+
+.signin-wrap .login-sec input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.signin-wrap .login-sec h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.signin-wrap .login-sec h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signin-wrap .login-sec h5 span {
+  color: #00cccc;
+  cursor: pointer;
+}
+
+.signin-wrap .login-sec .form-control {
+  background: #fff;
+  color: #3e3e3e;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 48px;
+  border: none;
+  margin-bottom: 12px;
+}
+
+.signin-wrap .login-sec .input-group-text {
+  margin-bottom: 12px;
+  border: none;
+  background: #fff;
+}
+
+.signin-wrap .login-sec .btn-teal {
+  background: #00cccc;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  border-radius: 0;
+}
+
+.signin-wrap .login-sec .forgot-pass {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: right;
+  margin: 15px 0;
+}
+
+.signin-wrap .login-sec .forgot-pass a {
+  color: #00cccc;
+  text-decoration: none;
+}
+
+.signin-wrap .login-sec .forgot-pass a:hover {
+  text-decoration: underline;
+}
+
+.signin-wrap .login-sec .seperator {
+  font-size: 13px;
+  color: #3D3D3D;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  margin: 30px 0;
+}
+
+.signin-wrap .login-sec .seperator:after, .signin-wrap .login-sec .seperator:before {
+  content: "";
+  width: 70px;
+  height: 1px;
+  background: #00cccc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.signin-wrap .login-sec .seperator:before {
+  left: auto;
+  right: 0;
+}
+
+.signin-wrap .login-sec .fb-btn, .signin-wrap .login-sec .google-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50% !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.signin-wrap .login-sec .fb-btn img, .signin-wrap .login-sec .google-btn img {
+  visibility: hidden;
+}
+
+.signin-wrap .login-sec .google-btn div, .signin-wrap .login-sec .google-btn span {
+  visibility: hidden;
+}
+
+.signin-wrap .login-sec .errMsg {
+  color: #ff6363;
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+.signin-wrap .login-sec .form-check.keep-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.signin-wrap .login-sec .form-check.keep-in .form-check-input {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .signin-wrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .signin-wrap .login-sec {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .signin-wrap .login-sec {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=meeko-style.css.map */
