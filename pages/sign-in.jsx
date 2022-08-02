@@ -155,7 +155,7 @@ const Signin = () => {
                     />
                     <label
                       className="form-check-label ms-3"
-                      for="flexCheckChecked"
+                      htmlFor="flexCheckChecked"
                     >
                       <span className="fw-500">Keep me signed in</span>
                     </label>
