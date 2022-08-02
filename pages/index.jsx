@@ -42,28 +42,28 @@ const Home = () => {
           rel="stylesheet"
         ></link>
       </Head>
-      <div class="main-content">
-        <header class="container header active" id="home">
-          <div class="header-content">
-            <div class="left-header">
-              <div class="h-shape"></div>
-              <div class="image">
+      <div className="main-content">
+        <header className="container header active" id="home">
+          <div className="header-content">
+            <div className="left-header">
+              <div className="h-shape"></div>
+              <div className="image">
                 <img src="/images/hero.jpg" alt="" />
               </div>
             </div>
-            <div class="right-header">
-              <h1 class="name">
+            <div className="right-header">
+              <h1 className="name">
                 Hi, I'm <span>Sarangan E. </span> Web Developer.
               </h1>
               <p>
                 I'm a Web Developer, I love to create beautiful and functional
                 websites.
               </p>
-              <div class="btn-con">
-                <a href="" class="main-btn">
-                  <span class="btn-text">Download CV</span>
-                  <span class="btn-icon">
-                    <i class="fas fa-download"></i>
+              <div className="btn-con">
+                <a href="" className="main-btn">
+                  <span className="btn-text">Download CV</span>
+                  <span className="btn-icon">
+                    <i className="fas fa-download"></i>
                   </span>
                 </a>
               </div>
@@ -71,15 +71,15 @@ const Home = () => {
           </div>
         </header>
         <main>
-          <section class="container about" id="about">
-            <div class="main-title">
+          <section className="container about" id="about">
+            <div className="main-title">
               <h2>
                 About <span>me</span>
-                <span class="bg-text">my stats</span>
+                <span className="bg-text">my stats</span>
               </h2>
             </div>
-            <div class="about-container">
-              <div class="left-about">
+            <div className="about-container">
+              <div className="left-about">
                 <h4>Information About me</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -91,116 +91,116 @@ const Home = () => {
                   adipisicing elit. Harum non necessitatibus deleniti eum
                   soluta.
                 </p>
-                <div class="btn-con">
-                  <a href="#" class="main-btn">
-                    <span class="btn-text">Download CV</span>
-                    <span class="btn-icon">
-                      <i class="fas fa-download"></i>
+                <div className="btn-con">
+                  <a href="#" className="main-btn">
+                    <span className="btn-text">Download CV</span>
+                    <span className="btn-icon">
+                      <i className="fas fa-download"></i>
                     </span>
                   </a>
                 </div>
               </div>
-              <div class="right-about">
-                <div class="about-item">
-                  <div class="abt-text">
-                    <p class="large-text">6+</p>
-                    <p class="small-text">
+              <div className="right-about">
+                <div className="about-item">
+                  <div className="abt-text">
+                    <p className="large-text">6+</p>
+                    <p className="small-text">
                       Projects <br /> Completed
                     </p>
                   </div>
                 </div>
-                <div class="about-item">
-                  <div class="abt-text">
-                    <p class="large-text">2+</p>
-                    <p class="small-text">
+                <div className="about-item">
+                  <div className="abt-text">
+                    <p className="large-text">2+</p>
+                    <p className="small-text">
                       Years of <br /> experience
                     </p>
                   </div>
                 </div>
-                <div class="about-item">
-                  <div class="abt-text">
-                    <p class="large-text">5+</p>
-                    <p class="small-text">
+                <div className="about-item">
+                  <div className="abt-text">
+                    <p className="large-text">5+</p>
+                    <p className="small-text">
                       Happy <br /> Clients
                     </p>
                   </div>
                 </div>
-                <div class="about-item">
-                  <div class="abt-text">
-                    <p class="large-text">4+</p>
-                    <p class="small-text">
+                <div className="about-item">
+                  <div className="abt-text">
+                    <p className="large-text">4+</p>
+                    <p className="small-text">
                       Customer <br /> reviews
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="about-stats">
-              <h4 class="stat-title">My Skills</h4>
-              <div class="progress-bars">
-                <div class="progress-bar">
-                  <p class="prog-title">html5</p>
-                  <div class="progress-con">
-                    <p class="prog-text">80%</p>
-                    <div class="progress">
-                      <span class="html"></span>
+            <div className="about-stats">
+              <h4 className="stat-title">My Skills</h4>
+              <div className="progress-bars">
+                <div className="progress-bar">
+                  <p className="prog-title">html5</p>
+                  <div className="progress-con">
+                    <p className="prog-text">80%</p>
+                    <div className="progress">
+                      <span className="html"></span>
                     </div>
                   </div>
                 </div>
-                <div class="progress-bar">
-                  <p class="prog-title">css</p>
-                  <div class="progress-con">
-                    <p class="prog-text">95%</p>
-                    <div class="progress">
-                      <span class="css"></span>
+                <div className="progress-bar">
+                  <p className="prog-title">css</p>
+                  <div className="progress-con">
+                    <p className="prog-text">95%</p>
+                    <div className="progress">
+                      <span className="css"></span>
                     </div>
                   </div>
                 </div>
-                <div class="progress-bar">
-                  <p class="prog-title">javascript</p>
-                  <div class="progress-con">
-                    <p class="prog-text">85%</p>
-                    <div class="progress">
-                      <span class="js"></span>
+                <div className="progress-bar">
+                  <p className="prog-title">javascript</p>
+                  <div className="progress-con">
+                    <p className="prog-text">85%</p>
+                    <div className="progress">
+                      <span className="js"></span>
                     </div>
                   </div>
                 </div>
-                <div class="progress-bar">
-                  <p class="prog-title">ReactJS</p>
-                  <div class="progress-con">
-                    <p class="prog-text">80%</p>
-                    <div class="progress">
-                      <span class="react"></span>
+                <div className="progress-bar">
+                  <p className="prog-title">ReactJS</p>
+                  <div className="progress-con">
+                    <p className="prog-text">80%</p>
+                    <div className="progress">
+                      <span className="react"></span>
                     </div>
                   </div>
                 </div>
-                <div class="progress-bar">
-                  <p class="prog-title">NodeJS</p>
-                  <div class="progress-con">
-                    <p class="prog-text">70%</p>
-                    <div class="progress">
-                      <span class="node"></span>
+                <div className="progress-bar">
+                  <p className="prog-title">NodeJS</p>
+                  <div className="progress-con">
+                    <p className="prog-text">70%</p>
+                    <div className="progress">
+                      <span className="node"></span>
                     </div>
                   </div>
                 </div>
-                <div class="progress-bar">
-                  <p class="prog-title">MySql</p>
-                  <div class="progress-con">
-                    <p class="prog-text">70%</p>
-                    <div class="progress">
-                      <span class="mysql"></span>
+                <div className="progress-bar">
+                  <p className="prog-title">MySql</p>
+                  <div className="progress-con">
+                    <p className="prog-text">70%</p>
+                    <div className="progress">
+                      <span className="mysql"></span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-              <div class="timeline-item">
-                <div class="tl-icon">
-                  <i class="fas fa-briefcase"></i>
+            <h4 className="stat-title">My Timeline</h4>
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="tl-icon">
+                  <i className="fas fa-briefcase"></i>
                 </div>
-                <p class="tl-duration">2020 - 2021</p>
+                <p className="tl-duration">2020 - 2021</p>
                 <h5>
                   Junior Web Developer<span> - Skematix</span>
                 </h5>
@@ -211,11 +211,11 @@ const Home = () => {
                   Skills For Implementing Web Technologies.
                 </p>
               </div>
-              <div class="timeline-item">
-                <div class="tl-icon">
-                  <i class="fas fa-briefcase"></i>
+              <div className="timeline-item">
+                <div className="tl-icon">
+                  <i className="fas fa-briefcase"></i>
                 </div>
-                <p class="tl-duration">2021 - present</p>
+                <p className="tl-duration">2021 - present</p>
                 <h5>
                   Software Engineer<span> - Smitiv Mobile Technologies.</span>
                 </h5>
@@ -229,165 +229,165 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <section class="container" id="portfolio">
-            <div class="main-title">
+          <section className="container" id="portfolio">
+            <div className="main-title">
               <h2>
                 My <span>Portfolio</span>
-                <span class="bg-text">My Work</span>
+                <span className="bg-text">My Work</span>
               </h2>
             </div>
-            <p class="port-text">
+            <p className="port-text">
               Here is some of my work that I've done in various programming
               languages.
             </p>
-            <div class="portfolios">
-              <div class="portfolio-item">
-                <div class="image">
+            <div className="portfolios">
+              <div className="portfolio-item">
+                <div className="image">
                   <img src="/images/port1.jpg" alt="" />
                 </div>
-                <div class="hover-items">
+                <div className="hover-items">
                   <h3>Project Source</h3>
-                  <div class="icons">
-                    <a href="#" class="icon">
-                      <i class="fab fa-github"></i>
+                  <div className="icons">
+                    <a href="#" className="icon">
+                      <i className="fab fa-github"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-behance"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-behance"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="portfolio-item">
-                <div class="image">
+              <div className="portfolio-item">
+                <div className="image">
                   <img src="/images/port2.jpg" alt="" />
                 </div>
-                <div class="hover-items">
+                <div className="hover-items">
                   <h3>Project Source</h3>
-                  <div class="icons">
-                    <a href="#" class="icon">
-                      <i class="fab fa-github"></i>
+                  <div className="icons">
+                    <a href="#" className="icon">
+                      <i className="fab fa-github"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-behance"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-behance"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="portfolio-item">
-                <div class="image">
+              <div className="portfolio-item">
+                <div className="image">
                   <img src="/images/port3.jpg" alt="" />
                 </div>
-                <div class="hover-items">
+                <div className="hover-items">
                   <h3>Project Source</h3>
-                  <div class="icons">
-                    <a href="#" class="icon">
-                      <i class="fab fa-github"></i>
+                  <div className="icons">
+                    <a href="#" className="icon">
+                      <i className="fab fa-github"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-behance"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-behance"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="portfolio-item">
-                <div class="image">
+              <div className="portfolio-item">
+                <div className="image">
                   <img src="/images/port4.jpg" alt="" />
                 </div>
-                <div class="hover-items">
+                <div className="hover-items">
                   <h3>Project Source</h3>
-                  <div class="icons">
-                    <a href="#" class="icon">
-                      <i class="fab fa-github"></i>
+                  <div className="icons">
+                    <a href="#" className="icon">
+                      <i className="fab fa-github"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-behance"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-behance"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="portfolio-item">
-                <div class="image">
+              <div className="portfolio-item">
+                <div className="image">
                   <img src="/images/port5.jpg" alt="" />
                 </div>
-                <div class="hover-items">
+                <div className="hover-items">
                   <h3>Project Source</h3>
-                  <div class="icons">
-                    <a href="#" class="icon">
-                      <i class="fab fa-github"></i>
+                  <div className="icons">
+                    <a href="#" className="icon">
+                      <i className="fab fa-github"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-behance"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-behance"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="portfolio-item">
-                <div class="image">
+              <div className="portfolio-item">
+                <div className="image">
                   <img src="/images/port2.jpg" alt="" />
                 </div>
-                <div class="hover-items">
+                <div className="hover-items">
                   <h3>Project Source</h3>
-                  <div class="icons">
-                    <a href="#" class="icon">
-                      <i class="fab fa-github"></i>
+                  <div className="icons">
+                    <a href="#" className="icon">
+                      <i className="fab fa-github"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-behance"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-behance"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="portfolio-item">
-                <div class="image">
+              <div className="portfolio-item">
+                <div className="image">
                   <img src="/images/port7.jpg" alt="" />
                 </div>
-                <div class="hover-items">
+                <div className="hover-items">
                   <h3>Project Source</h3>
-                  <div class="icons">
-                    <a href="#" class="icon">
-                      <i class="fab fa-github"></i>
+                  <div className="icons">
+                    <a href="#" className="icon">
+                      <i className="fab fa-github"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-behance"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-behance"></i>
                     </a>
-                    <a href="#" class="icon">
-                      <i class="fab fa-youtube"></i>
+                    <a href="#" className="icon">
+                      <i className="fab fa-youtube"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <section class="container" id="blogs">
-            <div class="blogs-content">
-              <div class="main-title">
+          <section className="container" id="blogs">
+            <div className="blogs-content">
+              <div className="main-title">
                 <h2>
                   My <span>Blogs</span>
-                  <span class="bg-text">My Blogs</span>
+                  <span className="bg-text">My Blogs</span>
                 </h2>
               </div>
-              <div class="blogs">
-                <div class="blog">
+              <div className="blogs">
+                <div className="blog">
                   <img src="/images/port6.jpg" alt="" />
-                  <div class="blog-text">
+                  <div className="blog-text">
                     <h4>How to Create Your Own Website</h4>
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -395,9 +395,9 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="blog">
+                <div className="blog">
                   <img src="/images/blog1.jpg" alt="" />
-                  <div class="blog-text">
+                  <div className="blog-text">
                     <h4>How to Become an Expert in Web Design</h4>
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -405,9 +405,9 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="blog">
+                <div className="blog">
                   <img src="/images/blog2.jpg" alt="" />
-                  <div class="blog-text">
+                  <div className="blog-text">
                     <h4>Become a Web Designer in 10 Days</h4>
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -415,9 +415,9 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="blog">
+                <div className="blog">
                   <img src="/images/blog3.jpg" alt="" />
-                  <div class="blog-text">
+                  <div className="blog-text">
                     <h4>Debbuging made easy with Web Inspector</h4>
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -425,9 +425,9 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="blog">
+                <div className="blog">
                   <img src="/images/port1.jpg" alt="" />
-                  <div class="blog-text">
+                  <div className="blog-text">
                     <h4>Get started with Web Design and UI Design</h4>
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -435,9 +435,9 @@ const Home = () => {
                     </p>
                   </div>
                 </div>
-                <div class="blog">
+                <div className="blog">
                   <img src="/images/port3.jpg" alt="" />
-                  <div class="blog-text">
+                  <div className="blog-text">
                     <h4>This is what you need to know about Web Design</h4>
                     <p>
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -448,59 +448,59 @@ const Home = () => {
               </div>
             </div>
           </section>
-          <section class="container contact" id="contact">
-            <div class="contact-container">
-              <div class="main-title">
+          <section className="container contact" id="contact">
+            <div className="contact-container">
+              <div className="main-title">
                 <h2>
                   Contact <span>Me</span>
-                  <span class="bg-text">Contact</span>
+                  <span className="bg-text">Contact</span>
                 </h2>
               </div>
-              <div class="contact-content-con">
-                <div class="left-contact">
+              <div className="contact-content-con">
+                <div className="left-contact">
                   <h4>Contact me here</h4>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
                     laborum numquam? Quam excepturi perspiciatis quas quasi.
                   </p>
-                  <div class="contact-info">
-                    <div class="contact-item">
-                      <div class="icon">
-                        <i class="fas fa-map-marker-alt"></i>
+                  <div className="contact-info">
+                    <div className="contact-item">
+                      <div className="icon">
+                        <i className="fas fa-map-marker-alt"></i>
                         <span>Location</span>
                       </div>
                       <p>: Coimbatore, Tamilnadu, India</p>
                     </div>
-                    <div class="contact-item">
-                      <div class="icon">
-                        <i class="fas fa-envelope"></i>
+                    <div className="contact-item">
+                      <div className="icon">
+                        <i className="fas fa-envelope"></i>
                         <span>Email</span>
                       </div>
                       <p>
                         <span>: writetosarangan@gmail.com</span>
                       </p>
                     </div>
-                    <div class="contact-item">
-                      <div class="icon">
-                        <i class="fas fa-user-graduate"></i>
+                    <div className="contact-item">
+                      <div className="icon">
+                        <i className="fas fa-user-graduate"></i>
                         <span>Education</span>
                       </div>
                       <p>
                         <span>: SNS College Of Engineering</span>
                       </p>
                     </div>
-                    <div class="contact-item">
-                      <div class="icon">
-                        <i class="fas fa-user-graduate"></i>
+                    <div className="contact-item">
+                      <div className="icon">
+                        <i className="fas fa-user-graduate"></i>
                         <span>Mobile Number</span>
                       </div>
                       <p>
                         <span>: +918300565331</span>
                       </p>
                     </div>
-                    <div class="contact-item">
-                      <div class="icon">
-                        <i class="fas fa-globe-africa"></i>
+                    <div className="contact-item">
+                      <div className="icon">
+                        <i className="fas fa-globe-africa"></i>
                         <span>Languages</span>
                       </div>
                       <p>
@@ -508,33 +508,33 @@ const Home = () => {
                       </p>
                     </div>
                   </div>
-                  <div class="contact-icons">
-                    <div class="contact-icon">
+                  <div className="contact-icons">
+                    <div className="contact-icon">
                       <a href="www.facebook.com" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                       </a>
                       <a href="#" target="_blank">
-                        <i class="fab fa-twitter"></i>
+                        <i className="fab fa-twitter"></i>
                       </a>
                       <a href="#" target="_blank">
-                        <i class="fab fa-github"></i>
+                        <i className="fab fa-github"></i>
                       </a>
                       <a href="#" target="_blank">
-                        <i class="fab fa-youtube"></i>
+                        <i className="fab fa-youtube"></i>
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="right-contact">
-                  <form action="" class="contact-form">
-                    <div class="input-control i-c-2">
+                <div className="right-contact">
+                  <form action="" className="contact-form">
+                    <div className="input-control i-c-2">
                       <input type="text" required placeholder="YOUR NAME" />
                       <input type="email" required placeholder="YOUR EMAIL" />
                     </div>
-                    <div class="input-control">
+                    <div className="input-control">
                       <input type="text" required placeholder="ENTER SUBJECT" />
                     </div>
-                    <div class="input-control">
+                    <div className="input-control">
                       <textarea
                         name=""
                         id=""
@@ -543,11 +543,11 @@ const Home = () => {
                         placeholder="Message Here..."
                       ></textarea>
                     </div>
-                    <div class="submit-btn">
-                      <a href="#" class="main-btn">
-                        <span class="btn-text">Download CV</span>
-                        <span class="btn-icon">
-                          <i class="fas fa-download"></i>
+                    <div className="submit-btn">
+                      <a href="#" className="main-btn">
+                        <span className="btn-text">Download CV</span>
+                        <span className="btn-icon">
+                          <i className="fas fa-download"></i>
                         </span>
                       </a>
                     </div>
@@ -558,25 +558,25 @@ const Home = () => {
           </section>
         </main>
 
-        <div class="controls">
-          <div class="control active-btn" data-id="home">
-            <i class="fas fa-home"></i>
+        <div className="controls">
+          <div className="control active-btn" data-id="home">
+            <i className="fas fa-home"></i>
           </div>
-          <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
+          <div className="control" data-id="about">
+            <i className="fas fa-user"></i>
           </div>
-          <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
+          <div className="control" data-id="portfolio">
+            <i className="fas fa-briefcase"></i>
           </div>
-          <div class="control" data-id="blogs">
-            <i class="far fa-newspaper"></i>
+          <div className="control" data-id="blogs">
+            <i className="far fa-newspaper"></i>
           </div>
-          <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
+          <div className="control" data-id="contact">
+            <i className="fas fa-envelope-open"></i>
           </div>
         </div>
-        <div class="theme-btn" onClick={() => handleTheme()}>
-          <i class="fas fa-adjust"></i>
+        <div className="theme-btn" onClick={() => handleTheme()}>
+          <i className="fas fa-adjust"></i>
         </div>
         <script src="app.js"></script>
       </div>
