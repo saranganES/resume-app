@@ -207,7 +207,7 @@ const Home = () => {
                 <p>
                   Over 1 Year of Full Time Experience in User Interface/Web
                   development as a Front-end Developer. Excellent HTML/HTML5,
-                  CSS/CSS3, JavaScript, JSON, Bootstrap, React js, Tailwind css
+                  CSS/CSS3, JavaScript, JSON, Bootstrap, React Js, Tailwind css
                   Skills For Implementing Web Technologies.
                 </p>
               </div>
@@ -220,8 +220,11 @@ const Home = () => {
                   Software Engineer<span> - Smitiv Mobile Technologies.</span>
                 </h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                  quasi vero fugit.
+                  Over 1.2 Year of Full Time Experience in User Interface/Web
+                  development as a Front-end and Back-end Developer. Excellent
+                  HTML/HTML5, CSS/CSS3, JavaScript, JSON, Bootstrap, React Js,
+                  Tailwind css, SaaS, Material UI, Node Js, MySql, Express Js
+                  Skills For Implementing Web Technologies.
                 </p>
               </div>
             </div>
